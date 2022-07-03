@@ -63,3 +63,5 @@ All copyright for {git_owner} on github and his app {app_name} on github!
 
 def help():
     print('Import this module and use generate function.')
+
+generate()
