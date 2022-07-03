@@ -1,37 +1,96 @@
-## Welcome to GitHub Pages
+# Read Me Generator
 
-You can use the [editor on GitHub](https://github.com/Ghalbeyou/ReadMeGenerator/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Description
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+This app is open source. the owner of this app is [@ghalbeyou](https://github.com/ghalbeyou).
 
-# Header 1
-## Header 2
-### Header 3
+With this app, you can generate your own readme! and belive or not, this README that you're seeing is buit with this app.
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
+
+App is available on [https://ghalbeyou.github.io/ReadMeGenerator](https://ghalbeyou.github.io/ReadMeGenerator) too.
+
+
+
+## Installation
+
+
+To install this app, you can use the following command:
+
+
+
+```
+gh repo clone Ghalbeyou/ReadMeGenerator
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+```
+cd ReadMeGenerator
+```
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ghalbeyou/ReadMeGenerator/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+## Usage
+to use this app, you can use the following command:
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+```
+python3 readme_generator.py <AppName> <GitHub URL> <GitHub Owner Username> <License> <Website URL> <Out File> 
+```
+and then it will generate a file named everything you entered as <Out File> and it will be saved in the same directory as this app. for example:
+
+```
+python3 readme_generator.py MyApp https://github.com/ghalbeyou/MyApp ghalbeyou MIT https://ghalbeyou.github.io/MyApp README
+```
+and it will generate a file named README.md and it will be saved in the same directory as this app.
+
+and, everything you entered as `out_name`, will be the name of the file, so if i give it `README` it will be called `README.md`. so forget, you don't need to give it .MD extension. and if you don't give it arguments, it will be called `README.md` by default.
+
+
+## License
+
+
+This app is licensed under the [APPACHE](license) license.
+
+
+
+## Author
+
+
+[@ghalbeyou](https://github.com/ghalbeyou)
+
+
+
+## Version
+
+
+1.0
+
+
+
+## Repository
+
+
+[https://github.com/ghalbeyou/ReadMeGenerator](https://github.com/ghalbeyou/ReadMeGenerator)
+
+
+
+## Issues
+
+
+
+[Click here to send issue](https://github.com/ghalbeyou/ReadMeGenerator/issues)
+## Contact us
+
+
+If you have any questions, please contact us at [@ghalbeyou](https://github.com/ghalbeyou)
+
+
+
+## End
+
+
+All copyright for ghalbeyou on github and his app Read Me Generator on github!
